@@ -1,10 +1,10 @@
 # DG640-VDU-implementation in vhdl
 
-A vhdl recreation of the DG640 VDU, as published in Electronics Today International magazine (ETI) in April, May & June of 1978. 
+A vhdl recreation of the DG640 VDU, which was published in Electronics Today International magazine (ETI) in April, May & June of 1978. 
 
 The companion PCG / Programmable character generator published in June 1980, is also implemented.
 
-The implementation extends the design, by implementing colour through use of three additional bits in the Attribute block.
+Colour is additionally implemented through use of three additional bits in the Attribute block.
 
 VGA output is generated thru R,G,B, Hsync and Vsync signals.
 
