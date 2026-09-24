@@ -1,0 +1,35 @@
+NET "clk_in" LOC = "P126";
+NET "clk_in" TNM_NET = "clk_in";
+TIMESPEC TS_clk_in = PERIOD "clk_in" 100 MHz;
+
+# VGA Interface
+NET "red_out" LOC = P44;
+NET "green_out" LOC = P51;
+NET "blue_out" LOC = P79;
+NET "hsync_out" LOC = P83;
+NET "vsync_out" LOC = P85;
+
+# Bus Interface
+NET "addr_in[0]" LOC = P1;
+NET "addr_in[1]" LOC = P46;
+NET "addr_in[2]" LOC = P48;
+NET "addr_in[3]" LOC = P2;
+NET "addr_in[4]" LOC = P56;
+NET "addr_in[5]" LOC = P75;
+NET "addr_in[6]" LOC = P5;
+NET "addr_in[7]" LOC = P81;
+NET "addr_in[8]" LOC = P7;
+NET "addr_in[9]" LOC = P9;
+NET "addr_in[10]" LOC = P88;
+NET "addr_in[11]" LOC = P93;
+NET "data_inout[0]" LOC = P95;
+NET "data_inout[1]" LOC = P98;
+NET "data_inout[2]" LOC = P100;
+NET "data_inout[3]" LOC = P102;
+NET "data_inout[4]" LOC = P105;
+NET "data_inout[5]" LOC = P43;
+NET "data_inout[6]" LOC = P45;
+NET "data_inout[7]" LOC = P47;
+NET "ce_n_in" LOC = P50;
+NET "rnw_in" LOC = P55;
+NET "p2_in" LOC = P74;

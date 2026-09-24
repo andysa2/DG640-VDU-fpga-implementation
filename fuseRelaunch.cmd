@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Dropbox/projects/DG640VDU/bus_if_tb_isim_beh.exe" -prj "C:/Dropbox/projects/DG640VDU/bus_if_tb_beh.prj" "work.bus_if_tb" 

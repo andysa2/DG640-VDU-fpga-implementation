@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Development\Desktop\DG640VDU\top.ncd
+OUTFILE=C:\Users\Development\Desktop\DG640VDU\top.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\Development\Desktop\DG640VDU
+LICENSE=WebPack
+USER_INFO=211353821_0_0_178
